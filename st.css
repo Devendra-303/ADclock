@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+ }
+ body{
+    background-color: black;
+ }
+ /* for Analog clock */
+ #containar{
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-image: url(clock.png);
+    background-size: cover;
+    position: relative;
+    top: 46px;
+    border: rgb(57, 68, 223) solid 2px;
+    border-radius: 175px;
+    box-shadow: 0px 0px 25px 8px #1952f3;
+ }
+ #point{
+   position: absolute;
+   left: 45.5%;
+   top: 45.5%;
+   width: 28px;
+   height: 28px;
+   background-color: black;
+   border-radius: 20px;
+   border: solid 2px #99621e;
+
+ }
+
+
+ #hour{
+   position: absolute;
+   width: 14px;
+   height: 97px;
+   background-color: black;
+   border-radius: 20px;
+   left: 48%;
+   top: 24%;
+   transform-origin: bottom;
+   
+
+ }
+
+ #mint{
+   position: absolute;
+   width: 10px;
+   height: 118px;
+   background-color: #071292;
+   border-radius: 20px;
+   left: 48.5%;
+   top: 18%;
+   transform-origin: bottom;
+  
+ }
+
+ #sec{
+   position: absolute;
+   width: 6px;
+   height: 128px;
+   background-color: red;
+   border-radius: 20px;
+   left: 49.1%;
+   top: 14%;
+   transform-origin: bottom;
+   
+ }
+
+ /* Digital clock */
+
+ h1{
+   position: absolute;
+   top: 482px;
+   left: -6px;
+   color: white;
+   border: solid 1px white;
+   box-shadow: 0px 0px 25px 8px #05e0f6;
+   border-radius: 45px;
+   font-size: 55px;
+   width: 326px;
+   padding: 13px 21px;
+   font-family: sans-serif;
+}
+
+
